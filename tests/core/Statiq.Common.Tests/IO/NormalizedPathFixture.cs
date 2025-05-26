@@ -51,7 +51,7 @@ namespace Statiq.Common.Tests.IO
             [WindowsTestCase("c:/../../foo/../../../../temp", "c:/../../../../../temp")]
             [WindowsTestCase("c:/a/b/c/../d/baz.txt", "c:/a/b/d/baz.txt")]
             [WindowsTestCase("c:/a/b/c/../d", "c:/a/b/d")]
-            public void ShouldCollapsePath(string fullPath, string expectedFullPath)
+            internal void ShouldCollapsePath(string fullPath, string expectedFullPath)
             {
                 // Given, When
                 NormalizedPath path = new NormalizedPath(fullPath);
