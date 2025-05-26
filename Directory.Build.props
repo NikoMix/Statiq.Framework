@@ -33,7 +33,7 @@
     <PackageReference Include="StyleCop.Analyzers" Version="1.1.118" PrivateAssets="All"/>
     <PackageReference Include="Roslynator.Analyzers" Version="4.0.2" PrivateAssets="All"/>
     <!-- It appears as though there might be a performance issue in versions of Microsoft.VisualStudio.Threading.Analyzers past this at least through 17.0.64 -->
-    <PackageReference Include="Microsoft.VisualStudio.Threading.Analyzers" Version="16.9.60" PrivateAssets="All"/>
+    <PackageReference Include="Microsoft.VisualStudio.Threading.Analyzers" Version="17.10.48" PrivateAssets="All"/>
   </ItemGroup>
   <ItemGroup>
     <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
